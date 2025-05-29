@@ -4,6 +4,91 @@
   <artifactId>Playwright</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  
+  
+  
+  
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+
+					<!-- <systemPropertyVariables> <username></username>
+					<password></password> 
+						<domain></domain> </systemPropertyVariables> -->
+
+					<!--
+					<argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine> -->
+					<useSystemClassLoader>false</useSystemClassLoader>
+					<suiteXmlFiles>
+						<!--<suiteXmlFile>Runner.xml</suiteXmlFile>-->
+						<!-- <suiteXmlFile>Runner.xml</suiteXmlFile> -->
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+			
+
+		    <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                <!--    <source>1.8</source>
+                    <target>1.8</target>
+				-->
+				<source>11</source>
+                    <target>11</target>	
+                </configuration>
+            </plugin>
+
+			 <plugin>  <!-- Create sources.jar -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+				<version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+			            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.11.2</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+		</plugins>
+	</build>
+  
+  
+<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+	<!--	<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		-->
+	<!--	<allure.results.directory>allure-results</allure.results.directory>
+		<allure.report.name>ckALreport</allure.report.name>-->
+	</properties>
+
   <dependencies>
 		<dependency>
 			<groupId>com.microsoft.playwright</groupId>
