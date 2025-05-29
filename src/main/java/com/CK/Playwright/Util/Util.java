@@ -161,10 +161,13 @@ public class Util extends BaseTest{
 				Process process = builder.start();
 				
 				System.out.println("Process exited with code: " + process.waitFor());
-			} catch (IOException | InterruptedException e) {
+			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				System.out.println("cause : " + e.getCause());
 				System.out.println("Message : " + e.getMessage());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		
 
