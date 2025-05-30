@@ -239,6 +239,7 @@ public class Util extends BaseTest{
 	/**
 	 * this method look for the folder and creates if not found in the specified path.
 	 * @param sPath - Folder name
+	 * @author  kaja ChennnakesavaRao Bachu
 	 */
 	public static void createFolder(String sPath) {
 
@@ -252,6 +253,7 @@ public class Util extends BaseTest{
 	 * This method will rename the file/folder by providing both old and new name parameters. Please note that, If you want to rename the file, it should have extensions as well. 
 	 * @param CurrentName - this is the Old name with complete Path
 	 * @param NewName     - this is the New name with complete Path
+	 * @author  kaja ChennnakesavaRao Bachu
 	 */
 	public static void renameFolder(String CurrentName, String NewName) {
 
@@ -270,6 +272,7 @@ public class Util extends BaseTest{
 	/**
 	 * This method will delete the file/folder specified as parameter. Here we have to pass the complete path of the file or folder. 
 	 * @param Path
+	 * @author  kaja ChennnakesavaRao Bachu
 	 */
 	public static void deleteFolder(String Path) {
 		try {
@@ -311,7 +314,12 @@ public class Util extends BaseTest{
 	}
 
 
-
+/**
+ * This method converts a file to Base64 in String format
+ * @param file - file to be converted
+ * @return - string in base64
+ * @author  kaja ChennnakesavaRao Bachu
+ */
 	public static String encodeFileToBase64Binary(File file){
 		String encodedfile = null;
 		try {
@@ -331,7 +339,6 @@ public class Util extends BaseTest{
 
 		return encodedfile;
 	}
-
 
 
 	@SuppressWarnings("rawtypes")
@@ -357,7 +364,7 @@ public class Util extends BaseTest{
 	/**
 	 * This method is used to get the One time pass code of Microsoft authenticator app by passing the secrete key as parameter. 
 	 * @param secretKey
-	 * @return
+	 * @return otpcode as string
 	 * @author  kaja ChennnakesavaRao Bachu
 	 */
 	public static String getTOTPCode(String secretKey) {
