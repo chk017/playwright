@@ -21,7 +21,8 @@
 			<artifactId>testng</artifactId>
 			<!-- <version>6.9.10</version> -->
 			<!--<version>7.4.0</version>-->
-			  <version>7.11.0</version>
+			  <!--<version>7.11.0</version>-->
+			  <version>7.10.2</version>
 			<!-- <scope>compile</scope> -->
 		</dependency>
 

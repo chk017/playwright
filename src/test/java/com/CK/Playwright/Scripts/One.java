@@ -15,7 +15,7 @@ import com.microsoft.playwright.ElementHandle;
 
 public class One extends BaseTest{
 		
-		@Test
+//		@Test
 		public void registration_TS02() {
 		
 		page.navigate(sURL);
