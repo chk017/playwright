@@ -1,9 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Diyar</groupId>
+  <groupId>io.github.chk017</groupId>
   <artifactId>Playwright</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <!--<version>0.0.1-SNAPSHOT</version>-->
+  <version>1.5.1</version>
   
+
+<distributionManagement>
+<repository>
+<id>github</id>
+<url>https://maven.pkg.github.com/chk017/playwright</url>
+</repository>
+</distributionManagement>
+
+
+<properties>
+<gpg.skip>true</gpg.skip>
+</properties>
 
 
   <dependencies>

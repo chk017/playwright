@@ -1,0 +1,7 @@
+com\CK\Playwright\Util\Util.class
+com\CK\Playwright\Reporting\Reporting.class
+com\CK\Playwright\BaseTest\BaseTest.class
+com\CK\Playwright\Browser\WebBrowser.class
+com\CK\Playwright\Lib\FrameLib.class
+com\CK\Playwright\Data\ReadExcel.class
+com\CK\Playwright\Elements\Elements.class

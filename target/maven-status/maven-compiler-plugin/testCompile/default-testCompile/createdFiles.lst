@@ -1,0 +1,4 @@
+com\CK\Playwright\Pages\SauceLoginPage.class
+com\CK\Playwright\Pages\SauceHomePage.class
+com\CK\Playwright\Pages\NaukriHomePage.class
+com\CK\Playwright\Scripts\One.class

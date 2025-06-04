@@ -69,6 +69,15 @@ public class One extends BaseTest{
 		
 		System.out.println("ProductsLabel text content : " + SauceHomePage.ProductsLabel.textContent());
 		
+		SauceHomePage.sort.select("Price (high to low)", "price as high to low");
+		
+		Util.sleepforseconds(3);
+		
+//		SauceHomePage.sort.getElement()
+		
+//		System.out.println("Sort : " + page.locator(SauceHomePage.sort.getElement()).getAttribute("value"));
+		
+		
 		SauceHomePage.ProductsLabel.verifyElementPresent("Products heading");
 		SauceHomePage.BurgerMenu.click("Burger Menu");
 		SauceHomePage.AllItems.verifyElementPresent("AllItems");

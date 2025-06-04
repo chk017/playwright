@@ -25,6 +25,15 @@ public class Elements {
 		
 	}
 	
+	
+	
+	public void select(String value, String name) {
+		
+	BaseTest.page.locator(sElement).selectOption(value);
+	Reporting.pass("System successfully selected the item : <b>"+value+" </b> in the drop down  <b>"+name+" </b>");
+	
+	}
+	
 	/**
 	 * click method is used to click on element. Before clicking, system wait for element, highlights the element and clicks on it
 	 * @param name - name of the field
@@ -128,4 +137,7 @@ public class Elements {
 			Reporting.fail("System failed to display the Element <b>"+name+"</b>", true);
 		}
 	}
+	
+	
+	
 }
