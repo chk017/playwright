@@ -15,9 +15,11 @@
     <configuration>
         <source>22</source>
         <target>22</target>
-        <compilerArgs>
+           <compilerArgs>
             <arg>--class-path</arg>
+            <arg>${project.build.outputDirectory}</arg>
         </compilerArgs>
+           
     </configuration>
 </plugin>
  </plugins>
