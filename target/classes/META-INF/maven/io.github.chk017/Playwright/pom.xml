@@ -1,58 +1,95 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>io.github.chk017</groupId>
-  <artifactId>Playwright</artifactId>
-  <!--<version>0.0.1-SNAPSHOT</version>-->
-  <version>1.5.3</version>
-  
- <build>
- <plugins>
-  
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.8.1</version>
-    <configuration>
-        <source>22</source>
-        <target>22</target>
-           <compilerArgs>
-            <arg>--class-path</arg>
-            <arg>${project.build.outputDirectory}</arg>
-        </compilerArgs>
-           
-    </configuration>
-</plugin>
- </plugins>
- </build>
- 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.chk017</groupId>
+	<artifactId>Playwright</artifactId>
+	<!--<version>0.0.1-SNAPSHOT</version>-->
+	<version>1.5.3</version>
 
 
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
 
-<distributionManagement>
-<repository>
-<id>github</id>
-<url>https://maven.pkg.github.com/chk017/playwright</url>
-</repository>
-</distributionManagement>
-
-
-<properties>
-<gpg.skip>true</gpg.skip>
-
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-</properties>
+	</repositories>
 
 
 
 
-  <dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+
+					<!-- <systemPropertyVariables> <username></username>
+					<password></password> 
+						<domain></domain> </systemPropertyVariables> -->
+
+					<!--
+					<argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine> -->
+					<useSystemClassLoader>false</useSystemClassLoader>
+					<suiteXmlFiles>
+						<!--<suiteXmlFile>Runner.xml</suiteXmlFile>-->
+						<!-- <suiteXmlFile>Runner.xml</suiteXmlFile> -->
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+	<properties>
+		<playwright-version>1.51.0</playwright-version>
+		<testng-version>7.10.2</testng-version>
+		<extentreports-version>5.1.2</extentreports-version>
+		<apache-commons-io-version>2.4</apache-commons-io-version>
+		<rest-assured-version>3.1.0</rest-assured-version>
+		<json-simple-version>1.1</json-simple-version>
+		<sonar-maven-plugin-version>3.8.0.2131</sonar-maven-plugin-version>
+		<checkerframework.version>3.3.0</checkerframework.version>
+		<taimos.totp.version>1.0</taimos.totp.version>
+		<logback.version>1.5.11</logback.version>
+		<slf4j.version>2.0.16</slf4j.version>
+		<poi.version>4.1.1</poi.version>
+		<browserstack.version>1.0.3</browserstack.version>
+		<jxl.version>2.6.3</jxl.version>
+		<poi.ooxml.version>4.1.1</poi.ooxml.version>
+
+
+		<!--
+		<PlaywrightFramework-systemPath>E:\eclipse-workspace\CKPlayWright-main\CKPlayWright-main\Lib\PlaywrightFramework.jar</PlaywrightFramework-systemPath>-->
+
+
+		<!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+		-->
+
+		<!--	<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		-->
+		<!--	<allure.results.directory>allure-results</allure.results.directory>
+		<allure.report.name>ckALreport</allure.report.name>-->
+	</properties>
+
+	<dependencies>
+
+
 		<dependency>
 			<groupId>com.microsoft.playwright</groupId>
 			<artifactId>playwright</artifactId>
 			<!--<version>1.49.0</version>-->
-			<version>1.51.0</version>
+			<!--<version>1.51.0</version>-->
+			<version>${playwright-version}</version>
+
 		</dependency>
 
 		<!-- TestNG framework -->
@@ -62,8 +99,8 @@
 			<artifactId>testng</artifactId>
 			<!-- <version>6.9.10</version> -->
 			<!--<version>7.4.0</version>-->
-			  <version>7.11.0</version>
-			  <!--<version>7.10.2</version>-->
+			<!--<version>7.11.0</version>-->
+			<version>${testng-version}</version>
 			<!-- <scope>compile</scope> -->
 		</dependency>
 
@@ -71,7 +108,8 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<!--<version>2.41.2</version>-->
-			<version>5.1.2</version>
+			<!--<version>5.1.2</version>-->
+			<version>${extentreports-version}</version>
 		</dependency>
 
 		<!--
@@ -79,14 +117,16 @@
 		<dependency>
 			<groupId>org.apache.directory.studio</groupId>
 			<artifactId>org.apache.commons.io</artifactId>
-			<version>2.4</version>
+			<!--<version>2.4</version>-->
+			<version>${apache-commons-io-version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>3.1.0</version>
+			<!--<version>3.1.0</version>-->
+			<version>${rest-assured-version}</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -95,7 +135,8 @@
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
-			<version>1.1</version>
+			<!--<version>1.1</version>-->
+			<version>${json-simple-version}</version>
 		</dependency>
 
 		<!--
@@ -103,32 +144,36 @@
 		<dependency>
 			<groupId>org.sonarsource.scanner.maven</groupId>
 			<artifactId>sonar-maven-plugin</artifactId>
-			<version>3.8.0.2131</version>
+			<!--<version>3.8.0.2131</version>-->
+			<version>${sonar-maven-plugin-version}</version>
 		</dependency>
 
-<!--		<dependency>
+		<dependency>
 			<groupId>org.checkerframework</groupId>
 			<artifactId>jdk8</artifactId>
-			<version>3.3.0</version>
+			<version>${checkerframework.version}</version>
+			<!--<version>3.3.0</version>-->
 		</dependency>
 
--->
 		<dependency>
 			<groupId>de.taimos</groupId>
 			<artifactId>totp</artifactId>
-			<version>1.0</version>
+			<version>${taimos.totp.version}</version>
+			<!--<version>1.0</version>-->
 		</dependency>
 
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
-			<version>1.5.11</version>
+			<version>${logback.version}</version>
+			<!--<version>1.5.11</version>-->
 		</dependency>
 
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
-			<version>1.5.11</version>
+			<version>${logback.version}</version>
+			<!--<version>1.5.11</version>-->
 
 		</dependency>
 
@@ -136,36 +181,44 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<!--<version>2.1.0-alpha1</version>-->
-			<version>2.0.16</version>
+			<version>${slf4j.version}</version>
+			<!--<version>2.0.16</version>-->
 
 		</dependency>
 
-		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
+			<!--<version>4.1.1</version>-->
+			<!--<version>5.4.1</version>-->
+		</dependency>
+
+
 		<!-- Browser stack Local -->
 		<dependency>
 			<groupId>com.browserstack</groupId>
 			<artifactId>browserstack-local-java</artifactId>
-			<version>1.0.3</version>
+			<!--<version>1.0.3</version>-->
+			<version>${browserstack.version}</version>
 		</dependency>
 
-<!-- Jxl Jar -->
+		<!-- Jxl Jar -->
 		<dependency>
 			<groupId>net.sourceforge.jexcelapi</groupId>
 			<artifactId>jxl</artifactId>
-			<version>2.6.3</version>
+			<version>${jxl.version}</version>
+			<!--<version>2.6.3</version>-->
 		</dependency>
 
-		<!-- Apache POI -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>4.1.1</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>4.1.1</version>
+			<version>${poi.ooxml.version}</version>
+			<!--<version>4.1.1</version>-->
+			<!--<version>5.4.1</version>-->
 		</dependency>
 
 	</dependencies>

@@ -13,34 +13,11 @@ import com.CK.Playwright.Reporting.Reporting;
 import com.CK.Playwright.Util.Util;
 import com.microsoft.playwright.ElementHandle;
 
+
 public class One extends BaseTest{
 		
-//		@Test
-		public void registration_TS02() {
-		
-		page.navigate(sURL);
-		
-		
-		// Do something with the page 
-		System.out.println("Page title: " + page.title());
-		
-	System.out.println("heading 2 : "+ page.locator(NaukriHomePage.head1).textContent());
 
-		NaukriHomePage.search.fill("playwright", "Search");
-		NaukriHomePage.location.fill("Hyderabad","location");
-		page.click(NaukriHomePage.dropdown);
-		page.click(NaukriHomePage.years2);
-		page.click(NaukriHomePage.searchBtn);
-//		page.selectOption(experience, "2 years");
-		System.out.println("title later : " + page.title());
 		
-//		byte[] a = page.screenshot();
-		
-		
-		
-		
-	}
-	
 	@Test
 	public void sauce_Login() {
 		page.navigate(sURL);
@@ -96,6 +73,32 @@ public class One extends BaseTest{
 	
 	}
 	
+	
+//	@Test
+	public void registration_TS02() {
+	
+	page.navigate(sURL);
+	
+	
+	// Do something with the page 
+	System.out.println("Page title: " + page.title());
+	
+System.out.println("heading 2 : "+ page.locator(NaukriHomePage.head1).textContent());
+
+	NaukriHomePage.search.fill("playwright", "Search");
+	NaukriHomePage.location.fill("Hyderabad","location");
+	page.click(NaukriHomePage.dropdown);
+	page.click(NaukriHomePage.years2);
+	page.click(NaukriHomePage.searchBtn);
+//	page.selectOption(experience, "2 years");
+	System.out.println("title later : " + page.title());
+	
+//	byte[] a = page.screenshot();
+	
+	
+	
+	
+}
 	
 
 	

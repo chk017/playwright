@@ -260,3 +260,294 @@
 2025-06-03 19:24:14 INFO  sauce_Login - Waiting for 1 seconds
 2025-06-03 19:24:15 INFO  sauce_Login - Waiting for 1 seconds
 2025-06-03 19:24:18 INFO  sauce_Login - Waiting for 3 seconds
+2025-06-05 08:11:36 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\chk017\AppData\Local\Temp\testng-eclipse--49017068\testng-customsuite.xml"
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 08:11:36 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\chk017\AppData\Local\Temp\testng-eclipse--49017068\testng-customsuite.xml
+
+2025-06-05 08:11:37 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2025-06-05 08:11:41 INFO  sauce_Login -  
+
+ <<<<<<<<<<<<<<<<<<<<<<   starting Test  :  sauce_Login  >>>>>>>>>>>>>>>>>>>>>>>
+2025-06-05 08:11:42 INFO  sauce_Login - System is retrieving test data...
+2025-06-05 08:11:45 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 08:11:46 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 08:11:50 INFO  sauce_Login - Waiting for 3 seconds
+2025-06-05 10:42:59 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\chk017\AppData\Local\Temp\testng-eclipse-678739707\testng-customsuite.xml"
+2025-06-05 10:43:23 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\chk017\AppData\Local\Temp\testng-eclipse-1985593803\testng-customsuite.xml"
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\chk017\AppData\Local\Temp\testng-eclipse-1985593803\testng-customsuite.xml
+
+2025-06-05 10:43:23 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2025-06-05 10:43:27 INFO  sauce_Login -  
+
+ <<<<<<<<<<<<<<<<<<<<<<   starting Test  :  sauce_Login  >>>>>>>>>>>>>>>>>>>>>>>
+2025-06-05 10:43:27 INFO  sauce_Login - System is retrieving test data...
+2025-06-05 10:43:32 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 10:43:33 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 10:43:36 INFO  sauce_Login - Waiting for 3 seconds
+2025-06-05 11:28:56 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\chk017\AppData\Local\Temp\testng-eclipse--230452069\testng-customsuite.xml"
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\chk017\AppData\Local\Temp\testng-eclipse--230452069\testng-customsuite.xml
+
+2025-06-05 11:28:57 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-06-05 11:29:00 INFO  sauce_Login -  
+
+ <<<<<<<<<<<<<<<<<<<<<<   starting Test  :  sauce_Login  >>>>>>>>>>>>>>>>>>>>>>>
+2025-06-05 11:29:01 INFO  sauce_Login - System is retrieving test data...
+2025-06-05 11:29:04 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:05 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:08 INFO  sauce_Login - Waiting for 3 seconds
+2025-06-05 11:29:10 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:11 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:12 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:13 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:14 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:15 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 11:29:15 INFO  sauce_Login - 
+ 
+ xxxxxxxxxxxxxxxx   -   End of Test  -  xxxxxxxxxxxxxxxx 
+ 
+2025-06-05 11:29:15 INFO  sauce_Login -  
+ 
+ =============================$$$$$$$$$$$$$$$$$$$$  -  End of Report  -  $$$$$$$$$$$$$$$$$$$$===================================================
+2025-06-05 11:29:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@69923ac3: 68 ms
+2025-06-05 11:29:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@24f870ee: 1 ms
+2025-06-05 11:29:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@32177fa5: 9 ms
+2025-06-05 11:29:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@22ebccb9: 8 ms
+2025-06-05 11:29:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2e1ddc90: 7 ms
+2025-06-05 11:29:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5b7c8930: 0 ms
+2025-06-05 11:36:04 DEBUG org.testng.TestNG - suiteXmlPath: "E:\eclipse-workspace\Playwright\testng.xml"
+2025-06-05 11:41:17 DEBUG org.testng.TestNG - suiteXmlPath: "E:\eclipse-workspace\Playwright\testng.xml"
+2025-06-05 14:25:13 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\chk017\AppData\Local\Temp\testng-eclipse--674087588\testng-customsuite.xml"
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\chk017\AppData\Local\Temp\testng-eclipse--674087588\testng-customsuite.xml
+
+2025-06-05 14:25:13 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+2025-06-05 14:25:17 INFO  sauce_Login -  
+
+ <<<<<<<<<<<<<<<<<<<<<<   starting Test  :  sauce_Login  >>>>>>>>>>>>>>>>>>>>>>>
+2025-06-05 14:25:18 INFO  sauce_Login - System is retrieving test data...
+2025-06-05 14:25:20 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:22 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:25 INFO  sauce_Login - Waiting for 3 seconds
+2025-06-05 14:25:26 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:27 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:28 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:29 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:30 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:31 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 14:25:31 INFO  sauce_Login - 
+ 
+ xxxxxxxxxxxxxxxx   -   End of Test  -  xxxxxxxxxxxxxxxx 
+ 
+2025-06-05 14:25:31 INFO  sauce_Login -  
+ 
+ =============================$$$$$$$$$$$$$$$$$$$$  -  End of Report  -  $$$$$$$$$$$$$$$$$$$$===================================================
+2025-06-05 14:25:32 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@67774e29: 70 ms
+2025-06-05 14:25:32 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@49a6f486: 2 ms
+2025-06-05 14:25:32 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5eea5627: 10 ms
+2025-06-05 14:25:32 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@49e4c2d5: 8 ms
+2025-06-05 14:25:32 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5c7dfc05: 4 ms
+2025-06-05 14:25:32 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@345d053b: 0 ms
+2025-06-05 21:49:22 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\chk017\AppData\Local\Temp\testng-eclipse-1351968141\testng-customsuite.xml"
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\chk017\AppData\Local\Temp\testng-eclipse-1351968141\testng-customsuite.xml
+
+2025-06-05 21:49:22 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2025-06-05 21:49:26 INFO  sauce_Login -  
+
+ <<<<<<<<<<<<<<<<<<<<<<   starting Test  :  sauce_Login  >>>>>>>>>>>>>>>>>>>>>>>
+2025-06-05 21:49:27 INFO  sauce_Login - System is retrieving test data...
+2025-06-05 21:49:30 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:31 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:34 INFO  sauce_Login - Waiting for 3 seconds
+2025-06-05 21:49:35 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:36 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:37 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:38 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:40 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:41 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-05 21:49:41 INFO  sauce_Login - 
+ 
+ xxxxxxxxxxxxxxxx   -   End of Test  -  xxxxxxxxxxxxxxxx 
+ 
+2025-06-05 21:49:41 INFO  sauce_Login -  
+ 
+ =============================$$$$$$$$$$$$$$$$$$$$  -  End of Report  -  $$$$$$$$$$$$$$$$$$$$===================================================
+2025-06-05 21:49:41 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2c88a3e8: 125 ms
+2025-06-05 21:49:41 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@68ac9ec5: 1 ms
+2025-06-05 21:49:41 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@e26af6: 16 ms
+2025-06-05 21:49:41 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@58f437b0: 9 ms
+2025-06-05 21:49:41 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@608fe01f: 8 ms
+2025-06-05 21:49:41 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2687725a: 0 ms
+2025-06-06 14:15:25 DEBUG org.testng.TestNG - suiteXmlPath: "E:\eclipse-workspace\Playwright\testng.xml"
+2025-06-06 14:15:29 INFO  sauce_Login -  
+
+ <<<<<<<<<<<<<<<<<<<<<<   starting Test  :  sauce_Login  >>>>>>>>>>>>>>>>>>>>>>>
+2025-06-06 14:15:30 INFO  sauce_Login - System is retrieving test data...
+2025-06-06 14:15:35 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:36 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:40 INFO  sauce_Login - Waiting for 3 seconds
+2025-06-06 14:15:41 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:42 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:43 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:44 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:45 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:46 INFO  sauce_Login - Waiting for 1 seconds
+2025-06-06 14:15:46 INFO  sauce_Login - 
+ 
+ xxxxxxxxxxxxxxxx   -   End of Test  -  xxxxxxxxxxxxxxxx 
+ 
+2025-06-06 14:15:46 INFO  sauce_Login -  
+ 
+ =============================$$$$$$$$$$$$$$$$$$$$  -  End of Report  -  $$$$$$$$$$$$$$$$$$$$===================================================

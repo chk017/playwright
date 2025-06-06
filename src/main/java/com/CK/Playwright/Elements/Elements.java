@@ -132,9 +132,9 @@ public class Elements {
 	 */
 	public void verifyElementPresent(String name) {
 		if(isElementPresent()) {
-			Reporting.pass("System successfully displays the Element <b>"+name+"</b>");
+			Reporting.pass("System successfully displays the Element: <b>"+name+"</b>");
 		}else {
-			Reporting.fail("System failed to display the Element <b>"+name+"</b>", true);
+			Reporting.fail("System failed to display the Element: <b>"+name+"</b>", true);
 		}
 	}
 	
